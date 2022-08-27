@@ -187,7 +187,7 @@ const WarehouseDetails = (props) => {
                 </div>
                 <div className='warehouseDetail__container--all'>
                     <div className="warehouseDetail__detail-container warehouseDetail__detail-container--primary">
-                        <h4 className="warehouseDetail__title">WAREHOUSE ADDRESS: </h4>
+                        <h4 className="warehouseDetail__title">GAME ADDRESS: </h4>
                         <p className="warehouseDetail__text">{data.address}</p>
                         <p className="warehouseDetail__text">{data.city} , {data.country}</p>
                     </div>
@@ -215,7 +215,7 @@ const WarehouseDetails = (props) => {
                         <h2 className='add-warehouse__warehouse-heading'>Team One</h2>
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Goal Keeper
+                            GoalKeeper
                         </label>
                         <input
                             className={
@@ -230,7 +230,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 1
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -247,7 +247,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 2
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -264,7 +264,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 3
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -281,7 +281,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 4
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -298,7 +298,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 1
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -316,7 +316,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 2
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -333,7 +333,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 3
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -350,7 +350,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 4
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -367,7 +367,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Attacker 1
+                            Attacker
                         </label>
                         <input
                             type='text'
@@ -385,7 +385,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Attacker 2
+                            Attacker
                         </label>
                         <input
                             type='text'
@@ -407,7 +407,7 @@ const WarehouseDetails = (props) => {
                         <h2 className='add-warehouse__warehouse-heading'>Team Two</h2>
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Goal Keeper
+                            GoalKeeper
                         </label>
                         <input
                             className={
@@ -422,7 +422,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 1
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -439,7 +439,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 2
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -456,7 +456,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 3
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -473,7 +473,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Defender 4
+                            Defender
                         </label>
                         <input
                             type='text'
@@ -490,7 +490,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 1
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -508,7 +508,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 2
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -525,7 +525,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 3
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -542,7 +542,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Midfielder 4
+                            Midfielder
                         </label>
                         <input
                             type='text'
@@ -559,7 +559,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Attacker 1
+                            Attacker
                         </label>
                         <input
                             type='text'
@@ -577,7 +577,7 @@ const WarehouseDetails = (props) => {
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
-                            Attacker 2
+                            Attacker
                         </label>
                         <input
                             type='text'
@@ -599,7 +599,7 @@ const WarehouseDetails = (props) => {
                         Cancel
                     </Link>
 
-                    <input type='submit' id='submit-button' value='+ Add Team' />
+                    <input type='submit' id='submit-button' value='Save Team' />
                 </div>
             </form>
 

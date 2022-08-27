@@ -92,7 +92,7 @@ router.post("/update-game/:id", async (req, res) => {
                 })
         }
         else {
-            return res.status(401).json({ message: "We were unable to update." })
+            return res.status(401).json({ message: "Unable to update." })
         }
     }
 });
@@ -107,7 +107,7 @@ router.post("/delete-game/:id", async (req, res) => {
             return res.status(200).json({ message: "Game Deleted Successfully" })
         }
         else {
-            return res.status(401).json({ message: "We were unable to Delete." })
+            return res.status(401).json({ message: "Unable to Delete." })
         }
     }
 });

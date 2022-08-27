@@ -1,4 +1,4 @@
-import logo from '../../Assets/Logo/InStock-Logo.svg'
+import logo from '../../Assets/Logo/PeelSoccer-Logo.jpeg'
 import { Link, useHistory } from 'react-router-dom'
 import './Header.scss'
 import Cookie from 'js-cookie'
