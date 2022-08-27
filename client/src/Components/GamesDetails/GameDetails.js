@@ -176,7 +176,7 @@ const WarehouseDetails = (props) => {
                             <span style={{ fontSize: "22px", color: "black" }} >  {data.name} </span>
                         </Link>
                     </div>
-                    <div style={{ backgroundColor: "#2E66E5", paddingLeft: "10px", paddingRight: "10px", paddingTop: "5px", paddingBottom: "2px", textAlign: "center", borderRadius: "20px" }}>
+                    <div style={{ backgroundColor: "#ff0000", paddingLeft: "10px", paddingRight: "10px", paddingTop: "5px", paddingBottom: "2px", textAlign: "center", borderRadius: "1.25rem" }}>
                         <Link to={`/game/edit/${params.id}`} style={{ color: "white", textDecoration: "none", }} >
                             <i class="fa-solid fa-pen"></i>
                             <span style={{ fontSize: "16px" }} > Edit</span>
@@ -195,7 +195,7 @@ const WarehouseDetails = (props) => {
                         <div className="warehouseDetail__detail-container">
                             <h4 className="warehouseDetail__title">CONTACT NAME:</h4>
                             <p className="warehouseDetail__text">{data.contactName}</p>
-                            {/* <p className="warehouseDetail__text">{data.position}</p> */}
+                            <p className="warehouseDetail__text">{data.position}</p>
 
                         </div>
                         <div className="warehouseDetail__detail-container">

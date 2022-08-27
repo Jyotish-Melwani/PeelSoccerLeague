@@ -31,10 +31,6 @@ const EditWarehouse = () => {
     });
 
 
-    /* 
-    const [descError, setDescError] = useState(false);
-    const [quantityError, setQuantityError] = useState(false); */
-
     useEffect(() => {
         axios.get(`http://localhost:5000/api/game/${params.id}`).then(res => {
             setWarehouseDetails({
@@ -67,7 +63,6 @@ const EditWarehouse = () => {
     const handleSave = e => {
         e.preventDefault();
 
-        // Have tracker so that we do at least scan through all fields.
         let foundError = false;
 
         // For left panel

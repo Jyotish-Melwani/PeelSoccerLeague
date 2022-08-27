@@ -1,4 +1,9 @@
+
+@use '../../Styles/Partials/variables' as *;
+@use '../../Styles/Partials/mixins' as*;
+@use '../../Styles/Partials/fonts' as*;
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 
 $background-color: #D7CCC8;
 $font-family: 'Roboto', sans-serif;
@@ -10,7 +15,7 @@ $font-family: 'Roboto', sans-serif;
   border: 0;
   width: 100%;
   padding: 15px;   
-  background: #2E66E5;  
+  background: $color-instock-indigo;  
   color: $fontcolor;
   text-transform: uppercase;
 }

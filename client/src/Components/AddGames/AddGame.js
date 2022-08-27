@@ -89,7 +89,7 @@ const AddWarehouse = () => {
                 onChange={errorHandler}
                 id='name-form'
                 name='warehouseName'
-                placeholder='Warehouse Name'
+                placeholder='Game Name'
               />
               <div
                 className={

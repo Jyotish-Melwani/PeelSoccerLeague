@@ -39,7 +39,7 @@ const WarehouseList = () => {
 
     return (
         <div className='warehouseList__wrapper-container'>
-            <SearchHeader title={'Games'} searchData={searchData} buttonText={'+ Add New Game'} buttonLink={'/game/add'} />
+            <SearchHeader title={'Games'} searchData={searchData} buttonText={'+ Add A New Game'} buttonLink={'/game/add'} />
             <TableHeader
                 className={'warehouseList'}
                 firstHeader={'Game'}
