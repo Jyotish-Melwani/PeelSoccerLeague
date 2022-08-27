@@ -1,6 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import PageHeader from "../../Components/Header/Header";
 import InventoryList from "../../Components/Profile/Profile";
+import Footer from "../../Components/Footer/Footer";
 import './profile.scss'
 
 function InventoryPage()  {
@@ -12,6 +13,7 @@ function InventoryPage()  {
                 <Switch>
                     <Route path='/profile' exact component={InventoryList} />
                 </Switch>
+                <Footer />
         </div>
     </>
     )
