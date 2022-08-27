@@ -193,7 +193,7 @@ const WarehouseDetails = (props) => {
                     </div>
                     <div className='warehouseDetail-flex'>
                         <div className="warehouseDetail__detail-container">
-                            <h4 className="warehouseDetail__title">CONTACT NAME AND GAME TIME:</h4>
+                            <h4 className="warehouseDetail__title">CONTACT NAME AND START TIME:</h4>
                             <p className="warehouseDetail__text">{data.contactName}</p>
                             <p className="warehouseDetail__text">{data.position}</p>
 

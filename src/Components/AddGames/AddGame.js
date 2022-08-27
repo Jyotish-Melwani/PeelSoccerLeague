@@ -3,7 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import axios from 'axios';
 import arrowIcon from '../../Assets/Icons/arrow_back-24px.svg';
 import warningIcon from '../../Assets/Icons/error-24px.svg';
-import { emailValidator, phoneValidator } from '../Helper/Helper';
+import { emailValidator } from '../Helper/Helper';
 import { useState } from 'react';
 import Cookie from 'js-cookie'
 
@@ -195,7 +195,7 @@ const AddWarehouse = () => {
                 <p className='warning-text'>This field is required</p>
               </div>
               <label className='wh-form__label' htmlFor='position-form'>
-                Time
+                Start Time
               </label>
               <input
                 type='text'
