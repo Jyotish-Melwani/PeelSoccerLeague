@@ -11,7 +11,7 @@ router.post("/user-register", async (req, res) => {
 
         const findUser = await user.findOne({ email: email.toLowerCase() })
         if (findUser) {
-            return res.status(400).json({ message: "User register with this email, try another" })
+            return res.status(400).json({ message: "User already registered with this email, please log in" })
         } else {
             const userDetails = await new user({
                 name: name,
@@ -55,7 +55,7 @@ router.post("/delete-user/:id", async (req, res) => {
             return res.status(200).json({ message: "User Deleted Successfully" })
         }
         else {
-            return res.status(401).json({ message: "We were unable to Delete." })
+            return res.status(401).json({ message: "Unable to Delete." })
         }
     }
 });
