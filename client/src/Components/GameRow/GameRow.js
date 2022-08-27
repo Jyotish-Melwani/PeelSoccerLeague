@@ -6,7 +6,7 @@ import BinIcon from '../../Assets/Icons/delete_outline-24px.svg'
 import PencilIcon from '../../Assets/Icons/edit-24px.svg'
 import { Link } from 'react-router-dom'
 
-import ModalDialog from '../ModalDialog/ModalDialog.jsx';
+import ModalDialog from '../ModalDialog/ModalDialog.js';
 
 const WarehouseRow = (props) => {
 

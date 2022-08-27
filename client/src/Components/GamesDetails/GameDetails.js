@@ -195,7 +195,7 @@ const WarehouseDetails = (props) => {
                         <div className="warehouseDetail__detail-container">
                             <h4 className="warehouseDetail__title">CONTACT NAME:</h4>
                             <p className="warehouseDetail__text">{data.contactName}</p>
-                            <p className="warehouseDetail__text">{data.position}</p>
+                            {/* <p className="warehouseDetail__text">{data.position}</p> */}
 
                         </div>
                         <div className="warehouseDetail__detail-container">
@@ -226,7 +226,7 @@ const WarehouseDetails = (props) => {
                             name='t1goalKeeper'
                             value={inputState?.t1goalKeeper}
                             onChange={errorHandler}
-                            placeholder='Goal Keeper'
+                            placeholder='GoalKeeper'
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
@@ -243,7 +243,7 @@ const WarehouseDetails = (props) => {
                             id='street-form'
                             name='t1defenderOne'
                             value={inputState?.t1defenderOne}
-                            placeholder='Defender 1'
+                            placeholder='Defender'
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
@@ -259,7 +259,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='street-form'
                             name='t1defenderTwo'
-                            placeholder='Defender 2'
+                            placeholder='Defender'
                             value={inputState?.t1defenderTwo}
                         />
 
@@ -276,7 +276,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='street-form'
                             name='t1defenderThree'
-                            placeholder='Defender 3'
+                            placeholder='Defender'
                             value={inputState?.t1defenderThree}
                         />
 
@@ -293,7 +293,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='street-form'
                             name='t1defenderFour'
-                            placeholder='Defender 4'
+                            placeholder='Defender'
                             value={inputState?.t1defenderFour}
                         />
 
@@ -310,7 +310,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t1midfielderOne'
-                            placeholder='Midfielder 1'
+                            placeholder='Midfielder'
                             value={inputState?.t1midfielderOne}
 
                         />
@@ -328,7 +328,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t1midfielderTwo'
-                            placeholder='Midfielder 2'
+                            placeholder='Midfielder'
                             value={inputState?.t1midfielderTwo}
                         />
 
@@ -345,7 +345,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t1midfielderThree'
-                            placeholder='Midfielder 3'
+                            placeholder='Midfielder'
                             value={inputState?.t1midfielderThree}
                         />
 
@@ -362,7 +362,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t1midfielderFour'
-                            placeholder='Midfielder 4'
+                            placeholder='Midfielder'
                             value={inputState?.t1midfielderFour}
                         />
 
@@ -379,7 +379,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='country-form'
                             name='t1attackerOne'
-                            placeholder='Attacker 1'
+                            placeholder='Attacker'
                             value={inputState?.t1attackerOne}
 
                         />
@@ -397,7 +397,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='country-form'
                             name='t1attackerTwo'
-                            placeholder='Attacker 2'
+                            placeholder='Attacker'
                             value={inputState?.t1attackerTwo}
                         />
 
@@ -418,7 +418,7 @@ const WarehouseDetails = (props) => {
                             name='t2goalKeeper'
                             value={inputState?.t2goalKeeper}
                             onChange={errorHandler}
-                            placeholder='Goal Keeper'
+                            placeholder='GoalKeeper'
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
@@ -435,7 +435,7 @@ const WarehouseDetails = (props) => {
                             id='street-form'
                             name='t2defenderOne'
                             value={inputState?.t2defenderOne}
-                            placeholder='Defender 1'
+                            placeholder='Defender'
                         />
 
                         <label className='wh-form__label' htmlFor='name-form'>
@@ -451,7 +451,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='street-form'
                             name='t2defenderTwo'
-                            placeholder='Defender 2'
+                            placeholder='Defender'
                             value={inputState?.t2defenderTwo}
                         />
 
@@ -468,7 +468,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='street-form'
                             name='t2defenderThree'
-                            placeholder='Defender 3'
+                            placeholder='Defender'
                             value={inputState?.t2defenderThree}
                         />
 
@@ -485,7 +485,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='street-form'
                             name='t2defenderFour'
-                            placeholder='Defender 4'
+                            placeholder='Defender'
                             value={inputState?.t2defenderFour}
                         />
 
@@ -502,7 +502,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t2midfielderOne'
-                            placeholder='Midfielder 1'
+                            placeholder='Midfielder'
                             value={inputState?.t2midfielderOne}
 
                         />
@@ -520,7 +520,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t2midfielderTwo'
-                            placeholder='Midfielder 2'
+                            placeholder='Midfielder'
                             value={inputState?.t2midfielderTwo}
                         />
 
@@ -537,7 +537,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t2midfielderThree'
-                            placeholder='Midfielder 3'
+                            placeholder='Midfielder'
                             value={inputState?.t2midfielderThree}
                         />
 
@@ -554,7 +554,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='city-form'
                             name='t2midfielderFour'
-                            placeholder='Midfielder 4'
+                            placeholder='Midfielder'
                             value={inputState?.t2midfielderFour}
                         />
 
@@ -571,7 +571,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='country-form'
                             name='t2attackerOne'
-                            placeholder='Attacker 1'
+                            placeholder='Attacker'
                             value={inputState?.t2attackerOne}
 
                         />
@@ -589,7 +589,7 @@ const WarehouseDetails = (props) => {
                             onChange={errorHandler}
                             id='country-form'
                             name='t2attackerTwo'
-                            placeholder='Attacker 2'
+                            placeholder='Attacker'
                             value={inputState?.t2attackerTwo}
                         />
                     </div>

@@ -1,8 +1,8 @@
 import { Switch, Route } from "react-router-dom";
 import GameList from "../../Components/GameList/GameList";
-import GameDetails from "../../Components/GamesDetails/GameDetails.jsx";
+import GameDetails from "../../Components/GamesDetails/GameDetails.js";
 import './Games.scss'
-import EditGame from '../../Components/EditGames/EditGame.jsx';
+import EditGame from '../../Components/EditGames/EditGame.js';
 import PageHeader from '../../Components/Header/Header';
 import AddGame from '../../Components/AddGames/AddGame';
 import Footer from "../../Components/Footer/Footer";

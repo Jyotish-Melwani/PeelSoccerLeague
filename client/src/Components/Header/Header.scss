@@ -4,14 +4,14 @@
 
 .page-header{
     background-color:$color-graphite;
-    padding: 1.5rem 0 6rem ;
+    padding: 1.5rem 0 3.5rem ;
     position: relative;
 
     @include tablet {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-bottom: 7.5rem;
+        padding-bottom: 3.5rem;
     }
 
     &__logo-wrapper{
