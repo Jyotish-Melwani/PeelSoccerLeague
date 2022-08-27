@@ -195,7 +195,7 @@ const AddWarehouse = () => {
                 <p className='warning-text'>This field is required</p>
               </div>
               <label className='wh-form__label' htmlFor='position-form'>
-                Position
+                Time
               </label>
               <input
                 type='text'
@@ -207,7 +207,7 @@ const AddWarehouse = () => {
                 onChange={errorHandler}
                 id='position-form'
                 name='position'
-                placeholder='Position'
+                placeholder='Game start time'
               />
               <div
                 className={

@@ -6,29 +6,25 @@
 
 
 $background-color: #D7CCC8;
-$font-family: 'Roboto', sans-serif;
 
 @mixin btn($fontcolor: #FAFAFA){
-  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   outline: 0;
   border: 0;
   width: 100%;
   padding: 15px;   
   background: $color-instock-indigo;  
-  color: $fontcolor;
+  color: $color-light-grey;
   text-transform: uppercase;
 }
 
 @mixin message($fontcolor: #90A4AE){
   color: $fontcolor;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
 @mixin input($bkgnd: #F5F5F5){
-  font-family: $font-family;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
@@ -37,13 +33,9 @@ $font-family: 'Roboto', sans-serif;
   font-size: 15px;
   text-align: center;
   box-sizing: border-box;
-  background: $bkgnd;
+  background: $color-light-grey;
 }
 
-// body{
-//   font-family: $font-family;
-//   background: $background-color;
-// }
 
 
 .container{

@@ -193,7 +193,7 @@ const WarehouseDetails = (props) => {
                     </div>
                     <div className='warehouseDetail-flex'>
                         <div className="warehouseDetail__detail-container">
-                            <h4 className="warehouseDetail__title">CONTACT NAME:</h4>
+                            <h4 className="warehouseDetail__title">CONTACT NAME AND GAME TIME:</h4>
                             <p className="warehouseDetail__text">{data.contactName}</p>
                             <p className="warehouseDetail__text">{data.position}</p>
 
@@ -219,9 +219,9 @@ const WarehouseDetails = (props) => {
                         </label>
                         <input
                             className={
-                                inputState.t1goalKeeper === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t1goalKeeper === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             name='t1goalKeeper'
                             value={inputState?.t1goalKeeper}
@@ -235,9 +235,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState.t1defenderOne === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t1defenderOne === ""
+                                //     ? 'add-wh__form-error'
+                                 'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -252,9 +252,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState.t1defenderTwo === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t1defenderTwo === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -269,9 +269,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t1defenderThree === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t1defenderThree === ""
+                                //     ? 'add-wh__form-error'
+                                'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -286,9 +286,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState.t1defenderFour === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t1defenderFour === ""
+                                //  'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -303,9 +303,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t1midfielderOne === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t1midfielderOne === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -321,9 +321,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t1midfielderTwo === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t1midfielderTwo === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -338,9 +338,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t1midfielderThree === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t1midfielderThree === ""
+                                //     ? 'add-wh__form-error'
+                                 'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -355,9 +355,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t1midfielderFour === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t1midfielderFour === ""
+                                //     ? 'add-wh__form-error'
+                                 'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -372,9 +372,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t1attackerOne === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t1attackerOne === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='country-form'
@@ -390,9 +390,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t1attackerTwo === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t1attackerTwo === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='country-form'
@@ -411,9 +411,9 @@ const WarehouseDetails = (props) => {
                         </label>
                         <input
                             className={
-                                inputState.t2goalKeeper === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t2goalKeeper === ""
+                                //     ? 'add-wh__form-error'
+                                     'add-wh__form before-form'
                             }
                             name='t2goalKeeper'
                             value={inputState?.t2goalKeeper}
@@ -427,9 +427,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState.t2defenderOne === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t2defenderOne === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -444,9 +444,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState.t2defenderTwo === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t2defenderTwo === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -461,9 +461,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t2defenderThree === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t2defenderThree === ""
+                                //     ? 'add-wh__form-error'
+                                     'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -478,9 +478,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState.t2defenderFour === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState.t2defenderFour === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='street-form'
@@ -495,9 +495,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t2midfielderOne === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t2midfielderOne === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -513,9 +513,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t2midfielderTwo === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t2midfielderTwo === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -530,9 +530,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t2midfielderThree === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t2midfielderThree === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -547,9 +547,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t2midfielderFour === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t2midfielderFour === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='city-form'
@@ -564,9 +564,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t2attackerOne === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t2attackerOne === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='country-form'
@@ -582,9 +582,9 @@ const WarehouseDetails = (props) => {
                         <input
                             type='text'
                             className={
-                                inputState?.t2attackerTwo === ""
-                                    ? 'add-wh__form-error'
-                                    : 'add-wh__form before-form'
+                                // inputState?.t2attackerTwo === ""
+                                //     ? 'add-wh__form-error'
+                                    'add-wh__form before-form'
                             }
                             onChange={errorHandler}
                             id='country-form'

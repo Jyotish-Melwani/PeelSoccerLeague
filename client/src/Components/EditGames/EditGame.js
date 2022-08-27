@@ -145,7 +145,7 @@ const EditWarehouse = () => {
                             <p>This field is required</p>
                         </div>
 
-                        <h3 className='warehouse-edit__subtitle' >Position</h3>
+                        <h3 className='warehouse-edit__subtitle' >Time</h3>
                         <input className='warehouse-edit__input' name='position' value={warehouseDetails.position} onChange={handleFormChange}></input>
                         <div className={fieldErrorWarehouse.position ? 'warehouse-edit__error' : 'warehouse-edit__hidden'}>
                             <img src={errorIcon} alt='' />

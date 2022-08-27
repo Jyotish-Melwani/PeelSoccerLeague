@@ -45,7 +45,7 @@ const InventoryList = () => {
 
     return (
         <div className='warehouseList__wrapper-container'>
-            <SearchHeader title={'Profile'} searchData={searchData} buttonText={'+ Add New Game'} buttonLink={'/game/add'} />
+            <SearchHeader title={'My Games'} searchData={searchData} buttonText={'+ Add New Game'} buttonLink={'/game/add'} />
             <TableHeader
                 className={'warehouseList'}
                 firstHeader={'Game'}
