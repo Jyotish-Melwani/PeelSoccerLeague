@@ -43,7 +43,7 @@ router.post("/delete-team/:id", async (req, res) => {
             return res.status(200).json({ message: "Team Deleted Successfully" })
         }
         else {
-            return res.status(401).json({ message: "We were unable to Delete." })
+            return res.status(401).json({ message: "Unable to Delete." })
         }
     }
 });
