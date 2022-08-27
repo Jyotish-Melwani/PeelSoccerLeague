@@ -14,11 +14,11 @@ router.get('/get-team/:id', (req, res, next) => {
 
 router.post('/add-team', (req, res) => {
     const { teamOne, teamTwo, userId, gameId} = req.body
-    // if (!teamOne, !teamTwo) {
-    //     return res.status(400).send({ message: "Please fill all the fields" });
-    // } else {
+    if (!teamOne, !teamTwo) {
+        return res.status(400).send({ message: "Please fill all the fields" });
+    } else {
 
-    // }
+    }
     const teamDetails = new team({
         teamOne: teamOne,
         teamTwo: teamTwo,
