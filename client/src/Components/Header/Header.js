@@ -33,13 +33,13 @@ const PageHeader = (props) => {
                         <Link
                             className={isActive === "Inventory" ? "page-header__link  page-header__link--active" : "page-header__link"}
                             to="/profile">
-                            Profile
+                            My Games
                         </Link>
 
                         <Link
-                            className={isActive === "Inventory" ? "page-header__link  page-header__link--active" : "page-header__link"}
+                            className={isActive === "Inventory" ? "page-header__link" : "page-header__link"}
                             onClick={() => logout()} >
-                            logout
+                            Logout
                         </Link>
 
                     </>
